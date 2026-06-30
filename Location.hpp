@@ -25,8 +25,8 @@ public:
 class World
 {
 public:
+    bool mapCheck;
     std::vector<Location> locs;
-    std::map<std::string, std::string> locsList;
 
     int load();
 };
